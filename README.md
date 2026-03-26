@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🤖 Automated_Report_Generation_Agent
 
-## Getting Started
+Automated_Report_Generation_Agent is a Next.js-based application that automates the process of generating comprehensive, shareable reports for GitHub repositories. Powered by AI (Google Gemini API), it fetches repository details and generates insightful markdown reports, which can be downloaded as PDFs for easy sharing and documentation.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🚀 **Automated Report Generation**: Instantly creates detailed reports from any public GitHub repository URL.
+- 🤖 **AI-Powered Summaries**: Uses Google Gemini AI for generating human-readable project overviews.
+- 📄 **Markdown & PDF Export**: View reports in markdown and download them as high-quality PDFs.
+- 🎨 **Modern UI**: Responsive, user-friendly interface built with Next.js, Tailwind CSS, and Framer Motion.
+- 🛡️ **Secure & Private**: Processes repository data client-side and securely interacts with AI APIs.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚡️ Installation
 
-## Learn More
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/mathi7585/Automated_Report_Generation_Agent.git
+   cd Automated_Report_Generation_Agent
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Set up Environment Variables**
+   - Create a `.env.local` file in the root directory.
+   - Add your Google Gemini API Key:
+     ```
+     GEMINI_API_KEY=your_google_gemini_api_key
+     ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ▶️ Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Start the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Open your browser**
+   - Go to [http://localhost:3000](http://localhost:3000)
+   - Paste any public GitHub repository URL (e.g., `https://github.com/vercel/next.js`)
+   - Click "Generate Report" to view, download, or share the generated report!
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! To get started:
+
+1. Fork this repo
+2. Create your feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -am 'Add awesome feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
+
+Please review the [CONTRIBUTING.md](CONTRIBUTING.md) guidelines before contributing.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 💡 Acknowledgements
+
+- [Next.js](https://nextjs.org)
+- [Google Gemini API](https://ai.google.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [lucide-react](https://lucide.dev/)
+
+---
+
+> _Automated_Report_Generation_Agent – Saving you time, one GitHub repo at a time!_ 🚀
+
+## License
+This project is licensed under the **MIT** License.
+
+---
+🔗 GitHub Repo: https://github.com/mathi7585/Automated_Report_Generation_Agent
