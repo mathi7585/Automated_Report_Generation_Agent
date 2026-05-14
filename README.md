@@ -39,7 +39,6 @@ Automated_Report_Generation_Agent is a Next.js-based application that automates 
      ```
      GEMINI_API_KEY=your_google_gemini_api_key
      ```
-
 ---
 
 ## ▶️ Usage
