@@ -90,7 +90,6 @@ This project is licensed under the [MIT License](LICENSE).
 - [lucide-react](https://lucide.dev/)
 
 ---
-
 > _Automated_Report_Generation_Agent – Saving you time, one GitHub repo at a time!_ 🚀
 
 ## License
