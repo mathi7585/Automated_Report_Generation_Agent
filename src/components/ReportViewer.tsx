@@ -5,7 +5,6 @@ import { Download, FileText, Code2, Link as LinkIcon, DownloadCloud } from "luci
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 import { motion } from "framer-motion";
-
 interface ReportViewerProps {
     markdown: string;
     repoData: any;
