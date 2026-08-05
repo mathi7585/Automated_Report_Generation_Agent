@@ -32,7 +32,6 @@ Automated_Report_Generation_Agent is a Next.js-based application that automates 
    # or
    bun install
    ```
-
 3. **Set up Environment Variables**
    - Create a `.env.local` file in the root directory.
    - Add your Google Gemini API Key:
