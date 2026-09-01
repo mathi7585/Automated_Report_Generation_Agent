@@ -13,7 +13,6 @@ Automated_Report_Generation_Agent is a Next.js-based application that automates 
 - 🛡️ **Secure & Private**: Processes repository data client-side and securely interacts with AI APIs.
 
 ---
-
 ## ⚡️ Installation
 
 1. **Clone the repository**
